@@ -1,3 +1,11 @@
 Hi Hello How are u?
 
-I am trying to learn the git stash!!!!!!!!
+I am trying to learn the How to install Docker!!!!!!!!
+
+On EC2 Instance 
+
+sudo apt-get update 
+
+sudo apt-get install docker.io
+
+docker --version 
