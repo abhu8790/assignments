@@ -1,0 +1,40 @@
+What is Docker? 
+Docker is platform (PAAS) which is used to build, ship and run containerized applications.  
+
+In Other words, Docker is nothing but the platform as service product which use the Operating system level virtualization to deliver software in packages. 
+-----------------------------------------------------------------------------------------------------------------------------------
+What is Container? 
+Container is nothing but the collections of binaries, libraries, and configuration files along with the application itself into single
+unit which has its specific name and id. 
+
+In other words, Docker Container is a virtual environment that bundles application code with all the dependencies required to run the application.
+-----------------------------------------------------------------------------------------------------------------------------------
+What is Docker File? 
+Docker file is nothing but the simple text file with instructions on how to build docker images. 
+
+In other words, A Dockerfile is a text document that contains commands that are used to assemble an image. 
+-----------------------------------------------------------------------------------------------------------------------------------
+What is docker Image? 
+Docker is nothing but the executable file which consists of code, runtime, system tools, system libraries and settings. 
+
+In other words, Docker Image is an executable package of software that includes everything needed to run an application. This image
+informs how a container should instantiate, determining which software components will run and how.
+-----------------------------------------------------------------------------------------------------------------------------------
+What is Docker Engine? 
+Docker Engine is nothing but the client-server technology that builds and runs containers using Docker's components and services.Docker Engine supports the tasks and workflows involved to build, ship and run container-based applications.
+
+Docker Engine is nothing but the set of programs which is used to hosts the containers named Docker Engine. The docker engine has 3 main components:
+Server: It is responsible for creating and managing Docker images, containers, networks, and volumes on the Docker. It is referred to as a daemon process.
+
+REST API: It specifies how the applications can interact with the Server and instructs it what to do.
+
+Client: The Client is a docker command-line interface (CLI), that allows us to interact with Docker using the docker commands.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+  
+
+
+
+
+
+References: - 1] https://www.docker.com/resources/what-container/
