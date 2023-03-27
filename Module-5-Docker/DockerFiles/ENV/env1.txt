@@ -1,0 +1,7 @@
+FROM debian
+# Declare the variable
+ENV THIS_IS_ENV=default_env_value
+# Echo it's value at build time
+RUN echo "I'm inside the image at build time and THIS_IS_ENV value is ${THIS_IS_ENV:-}"
+# This will be executed at runtime
+CMD ["bash", "-c", "echo At runtime and THIS_IS_ENV value is ${THIS_IS_ENV:-}"]

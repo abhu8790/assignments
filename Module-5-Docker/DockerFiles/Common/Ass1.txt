@@ -1,0 +1,17 @@
+# Set the base image
+FROM alpine:latest
+
+# Set environment variable
+ENV NAME=CODEMIND
+
+# Set the working directory
+WORKDIR /var/log
+
+# Copy source_code.txt to the container
+VOLUME [ "/var/log" ]
+
+# Set the entrypoint
+ENTRYPOINT ["/bin/sh", "-c", "date '+%m-%d-%y'"]
+
+# Set the default command
+CMD ["/bin/sh", "-c", "echo $NAME"]

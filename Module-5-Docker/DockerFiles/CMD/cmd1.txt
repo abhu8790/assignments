@@ -1,0 +1,8 @@
+FROM alpine:latest
+#Shell form:
+CMD ping google.com
+CMD python myapplication.py
+
+#Executable form:
+CMD ["ping","google.com"]
+CMD ["python","myapplication.py"]

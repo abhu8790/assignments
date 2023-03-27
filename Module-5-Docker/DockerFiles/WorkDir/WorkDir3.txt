@@ -1,0 +1,4 @@
+#WORKDIR by specifying environment variables
+FROM ubuntu:latest
+ENV DIRPATH /app
+WORKDIR $DIRPATH

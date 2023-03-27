@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+WORKDIR /my-work-dir
+RUN echo "Work Directory 1" > 1.txt
+WORKDIR /my-work-dir-2
+RUN echo "Work Directory 2" > 2.txt
