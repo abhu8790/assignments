@@ -1,0 +1,86 @@
+Docker is nothing but the tool or set of programs (S/W) which is used to create , build and ship code and its dependecies into single unit which has its specifc name and ID. 
+
+there are 2 types of images 
+1) User defined Images 
+
+2) Predefined Images [Official Image] hub.docker.com [docker]
+
+What is mean by container? 
+1] Container is nothing but the running image. 
+ 
+2] Container collections of os, applications and its dependecies into single unit 
+   which has its specific name or ID.   
+
+How we create container? or How to run tthe image? 
+With the help of following syntax; 
+
+synatx:-   docker run tag interactive_mode tag_name path 
+
+ex:        docker run -it ubuntu /bin/bash
+
+If we want to check the OS detials in container? 
+
+ Inside the container ---> # cat /etc/os-release
+
+
+How we create container using user defined name? 
+With the help of following syntax; 
+
+synatx:-   docker run tag interactive_mode --name <UDN> tag_name path 
+
+ex:        docker run -it --name Somnath ubuntu /bin/bash
+
+
+How we start the container? 
+With the help of following syntax; 
+
+synatx:-   docker start container_id/Container_name
+
+ex:         docker start somnath
+
+How we stop the container? 
+With the help of following syntax; 
+
+synatx:-   docker stop container_id/Container_name
+
+ex:         docker stop somnath
+
+
+
+How we go inside the container? 
+With the help of following syntax; 
+
+synatx:-   docker attach container_id/Container_name
+
+ex:        docker attach somnath
+
+  
+How we delete the container? 
+With the help of following syntax; 
+
+synatx:-   docker rm container_id/Container_name
+
+ex;        docker rm somanth
+
+How we delete all container in one go? 
+
+ex:  docker rm $(docker ps -aq)
+
+   rm --> remove 
+   ps --> Process status 
+   -a ---> all 
+    q ---> quit
+ 
+
+
+How we create image UDI? 
+1) from docker hub
+2) Predefined container 
+3) Docker file 
+     
+
+
+
+
+
+
